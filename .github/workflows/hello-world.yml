@@ -1,4 +1,4 @@
-name: hello-world
+name: Node CI
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -7,5 +7,5 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
 
-      - name: say-hello
+      - name: hello-world
         run: make say-hello
